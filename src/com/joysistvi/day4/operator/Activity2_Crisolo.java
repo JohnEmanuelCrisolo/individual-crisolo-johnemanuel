@@ -1,6 +1,6 @@
 package com.joysistvi.day4.operator;
 
-public class UnaryOperator {
+public class Activity2_Crisolo {
     public static void main (String[] args) {
         double income = 50000;
         double foodAllowance = 15000;
