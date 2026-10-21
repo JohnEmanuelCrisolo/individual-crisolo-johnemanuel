@@ -29,6 +29,7 @@ public class Activity4_Crisolo {
         } else {
             category = "Senior";
         }
+        scanner.close();
 
         System.out.println("Age: " + age);
         System.out.println("Category: " + category);
