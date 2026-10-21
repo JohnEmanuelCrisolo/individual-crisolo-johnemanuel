@@ -1,3 +1,4 @@
+
 package com.joysistvi.day6.ifstatement;
 
 public class ifElseIfLadder {
@@ -11,38 +12,17 @@ public class ifElseIfLadder {
                 result = "F";
             } else if (grade <= 80) { // 71 - 80
                 result = "C";
-            } else if (grade <= 90) {
+            } else if (grade <= 90) { // 81 - 90
                 result = "B";
-            } else {
+            } else { // 91 - 100
                 result = "A";
             }
+
             System.out.println("Grade: " + grade);
             System.out.println("Classification: " + result);
 
         } else {
             System.out.println("Invalid Grade");
         }
-
-        }
     }
 }
-
-
-
-
-                /*if (grade >= 1 && grade <= 100) {
-
-        if (grade <= 70) { // 1 - 70
-result = "F";
-        } else if (grade <= 80) { // 71 - 80
-result = "C";
-        } else if (grade <= 90) {
-result = "B";
-        } else {
-result = "A";
-        }
-        System.out.println("Grade: " + grade);
-            System.out.println("Classification: " + result);
-
-        } else {
-                System.out.println("Invalid Grade");
