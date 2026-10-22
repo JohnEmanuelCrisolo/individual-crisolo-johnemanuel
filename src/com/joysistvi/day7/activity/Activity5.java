@@ -1,6 +1,6 @@
-package com.joysistvi.day7.userinput;
+package com.joysistvi.day7.activity;
 import java.util.Scanner;
-public class UserInput {
+public class Activity5 {
 
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -203,7 +203,7 @@ public class UserInput {
                 System.out.println("You are now subscribed to " + promo);
                 scanner.close();
                 break;
-            default: System.out.println("Invalid Promo Choice");
+            default: System.out.println("Exited program");
                 scanner.close();
                 return; }
 
