@@ -68,21 +68,21 @@ public class Activity5 {
                 System.out.println("\n       Go promos");
                 System.out.println("[1] Go50");
                 System.out.println("[2] Go90");
-                System.out.println("[2] Go120");
+                System.out.println("[3] Go120");
                 break;
 
             case "GoEXTRA":
                 System.out.println("\n       GoEXTRA promos");
                 System.out.println("[1] GoEXTRA99");
                 System.out.println("[2] GoEXTRA129");
-                System.out.println("[2] GoEXTRA149");
+                System.out.println("[3] GoEXTRA149");
                 break;
 
             case "UNLI 5G":
                 System.out.println("\n       UNLI 5G promos");
                 System.out.println("[1] UNLI 5G 99");
                 System.out.println("[2] UNLI 5G 149");
-                System.out.println("[2] UNLI 5G 199");
+                System.out.println("[3  ] UNLI 5G 199");
                 break;
 
             case "ALLNET":
