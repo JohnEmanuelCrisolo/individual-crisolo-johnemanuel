@@ -27,7 +27,7 @@ public class Activity5 {
         System.out.println("[4] UNLI 5G");
         System.out.print("[5] ALLNET");
 
-        System.out.print(" Enter a choice: ");
+        System.out.print("\n    Enter a choice: ");
         int choice = scanner.nextInt();
 
 
@@ -82,7 +82,7 @@ public class Activity5 {
                 System.out.println("\n       UNLI 5G promos");
                 System.out.println("[1] UNLI 5G 99");
                 System.out.println("[2] UNLI 5G 149");
-                System.out.println("[3  ] UNLI 5G 199");
+                System.out.println("[3  2] UNLI 5G 199");
                 break;
 
             case "ALLNET":
