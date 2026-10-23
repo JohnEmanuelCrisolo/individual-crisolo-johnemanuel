@@ -17,7 +17,7 @@ public class Activity6Crisolo {
         System.out.println("\n *** Multiplication table of " + num + " ***");
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println(i + " x " + num + " = " + (i * num));
+            System.out.println(num + " x " + i + " = " + (i * num));
         }
 
 
