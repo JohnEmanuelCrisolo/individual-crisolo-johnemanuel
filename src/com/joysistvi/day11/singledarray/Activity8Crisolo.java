@@ -25,7 +25,7 @@ public class Activity8Crisolo {
         // Calculate the average
         double average = (double) sum / numbers.length;
 
-       // find the highest number
+       // find the highest number and lowest number
         int highest = numbers[0];
         int lowest = numbers[0];
 
