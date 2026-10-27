@@ -3,7 +3,10 @@ package com.joysistvi.day2.idenavigation;
 public class SampleCode {
     public static void main (String[] args) {
 
-        System.out.println("hello java");
+        int x = 10;
+        int y = 3;
+
+        System.out.println(x/y);
     }
 }
 
