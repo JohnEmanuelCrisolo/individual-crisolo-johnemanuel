@@ -2,12 +2,19 @@ package com.joysistvi.day13.string;
 
 import java.util.Scanner;
 
-public class StringClass {
-
+    public class ExitProgram {
+        static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        exitMethod();
 
+        scanner.close();
+
+
+
+    }
+
+    public static void exitMethod() {
         String correctUsername = "admin";
         String correctPassword = "admin123";
 
@@ -41,6 +48,6 @@ public class StringClass {
             }
             System.out.println();
         }
-        scanner.close();
+
     }
 }
