@@ -77,9 +77,11 @@ public class Main {
         pen2.refill();
 
         /*
-        Method overriding by its word "Overriding" it overrides or replaces existing methods.
+        Method overriding by its word "Overriding" it overrides or replaces existing methods.Its a runtime polymorphism which means
+        the system identifies the method it will use while the program is running
         Method overloading is when you create multiple methods with the same name but differs in the parameters.
-        the way the system chooses the correct method is through parameter count
+        the way the system chooses the correct method is through parameter count.Its a compile time polymorphism which means
+        the system identifies the method it will use before the program runs
          */
 
     }
