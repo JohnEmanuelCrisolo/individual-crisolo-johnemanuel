@@ -16,6 +16,7 @@ public class Ballpen extends Pen implements Refillable, Clickable {
         this.pointSize = pointSize;
     }
 
+
     @Override
     public void write() {
         System.out.println("Writing with a ballpen...");

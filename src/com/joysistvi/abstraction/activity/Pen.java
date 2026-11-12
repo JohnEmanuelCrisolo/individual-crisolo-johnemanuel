@@ -1,6 +1,6 @@
 package com.joysistvi.abstraction.activity;
 
-public  class Pen {
+public abstract class Pen {
     private String brand;
     private String color;
     private double weightInGrams;
@@ -40,6 +40,10 @@ public  class Pen {
         System.out.println("Writing with a pen...");
     }
 
+    public void store() {
+        System.out.println("Storing the pen in the pencil case.");
+    }
+
     @Override
     public String toString() {
         return "Brand: " + brand + "\n"
@@ -52,7 +56,7 @@ public  class Pen {
         System.out.println("Refilling the pen...");
     }
     public void write(String text) {
-        System.out.println("Writing" + text + " with a pen.");
+        System.out.println("Writing " + text + " with a pen.\n");
     }
 
     public void write(String text, int times) {
