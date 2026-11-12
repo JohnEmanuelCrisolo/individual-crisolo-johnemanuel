@@ -56,7 +56,9 @@ public class Main {
         System.out.println("\n====== TEST PEN ======");
 
         System.out.println("\n--- Testing Ballpen ---");
+        testPen(pen);
         testPen(pen2);
+        testPen(pen3);
 
 
         System.out.println("\n========== METHOD OVERLOADING ==========");

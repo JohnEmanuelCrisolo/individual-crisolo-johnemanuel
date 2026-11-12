@@ -1,6 +1,6 @@
 package com.joysistvi.abstraction.activity;
 
-public class Pen {
+public  class Pen {
     private String brand;
     private String color;
     private double weightInGrams;
