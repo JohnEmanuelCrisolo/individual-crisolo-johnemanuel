@@ -76,5 +76,11 @@ public class Main {
         pen2.write();
         pen2.refill();
 
+        /*
+        Method overriding by its word "Overriding" it overrides or replaces existing methods.
+        Method overloading is when you create multiple methods with the same name but differs in the parameters.
+        the way the system chooses the correct method is through parameter count
+         */
+
     }
 }
