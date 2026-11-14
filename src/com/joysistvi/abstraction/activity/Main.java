@@ -89,7 +89,7 @@ public class Main {
 //              Then write a comment in Main that explains why it fails.
     /*
     Pen is abstract so it cannot be instantiated.
-    Abstract classes cannot be used to create objects directly so 
+    Abstract classes cannot be used to create objects directly so
      Instead, we must create objects using its child classes,
     */
 
